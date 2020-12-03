@@ -35,7 +35,7 @@ begin
     sleep 1
 
     date = driver.find_element(css: '#datepicker')
-    date.send_keys '27/10/2025'
+    date.send_keys '10/27/2025'
     sleep 1
 
     submit = driver.find_element(css: '.btn.btn-lg.btn-primary')
